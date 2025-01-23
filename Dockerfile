@@ -5,7 +5,7 @@ FROM node:22
 WORKDIR /app
 
 # Clone the repository and install dependencies
-RUN git clone https://github.com/Cyteon/the-watcher.git . && \
+RUN git clone https://github.com/PlOszukiwaczDEV/the-watcher.git . && \
     npm install
 
 # Copy the update-and-run script and make it executable
